@@ -17,7 +17,7 @@ const Avatar = () => {
         duration: 1, // Smooth transition duration
         ease: "easeInOut", // Smooth easing for a better look
       }}
-      className="hidden xl:flex xl:max-w-none absolute right-40 top-60"
+      className="hidden xl:flex xl:max-w-none absolute right-40 top-40"
     >
       <div className="relative w-[500px] h-[600px]">
         <Image 
