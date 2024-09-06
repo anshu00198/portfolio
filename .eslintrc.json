@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "plugins": ["react"],
+  "rules": {
+    "react/react-in-jsx-scope": "off", // React 18+ handles this automatically
+    "jsx-a11y/alt-text": [
+      "warn",
+      {
+        "elements": ["img", "area", "input[type='image']"],
+        "img": ["Image"],
+        "object": ["object"],
+        "area": ["area"],
+        "input": ["input"]
+      }
+    ],
+    "jsx-a11y/anchor-is-valid": [
+      "warn",
+      {
+        "aspects": ["validHref"]
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
