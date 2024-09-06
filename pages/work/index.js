@@ -30,6 +30,7 @@ const Work = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
+        transition={{ duration: 1, ease: "easeInOut" }}
         className='w-full xl:max-w-[65%]'>
         <WorkSlider />
         </motion.div>
