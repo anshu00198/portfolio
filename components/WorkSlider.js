@@ -58,7 +58,7 @@ const WorkSlider = () => {
           transition={{ duration: 1, ease: "easeInOut" }}
           className='justify-center flex cursor-pointer overflow-hidden items-center group'>
             <div className='flex items-center rounded-lg justify-center relative overflow-hidden'>
-              <Image src={image.path} width={380} height={380} alt='' />
+              <Image src={image.path} width={400} height={400} alt=''classname='object-cover' />
 
               {/* Overlay */}
               <div className='absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
